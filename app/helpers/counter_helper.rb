@@ -1,7 +1,6 @@
 module CounterHelper
 
   @@times_clicked = 0
-
   def increase_counter()
     @@times_clicked += 1
     @@times_clicked
@@ -10,4 +9,5 @@ module CounterHelper
   def get_counter()
     @@times_clicked
   end
+
 end
