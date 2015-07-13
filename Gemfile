@@ -18,4 +18,5 @@ group :development, :test do
   gem 'react-rails', '~> 1.0'
   gem 'devise'
   gem 'rspec-rails', '~> 3.0'
+  gem 'browserify-rails', '~>0.5'
 end
